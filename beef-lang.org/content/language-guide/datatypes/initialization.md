@@ -24,7 +24,7 @@ class Student : Person
 	public School mSchool = GetSchool();
 	public int? mAge;
 
-	/* Initializer blocks allow for initialization that occurs irregardless of which constructor is invoked */
+	/* Initializer blocks allow for initialization that occurs regardless of which constructor is invoked */
 	this
 	{
 		RegisterStudent();
